@@ -1,3 +1,4 @@
+`include "cmos_cells_delay.v"
 module calculadora (
     input clk,
     input rst,
