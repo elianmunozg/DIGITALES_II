@@ -1,4 +1,4 @@
-`include "calculadora.v"
+`include "synth.v"
 `include "test.v"
 `include "cmos_cells_delay.v"
 
@@ -31,7 +31,7 @@ test tester(
 );
 
 initial begin
-    $dumpfile("tb.vcd");
+    $dumpfile("tb2.vcd");
     $dumpvars;
 end
 
